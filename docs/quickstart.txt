@@ -41,7 +41,7 @@ Installation
      handler500 = TemplateView.as_view(template_name="500.html")
 
   This ensures that RequestContext_ is used to render the template, which
-  is `not the case by default`_ but is needed to populate `STATIC _URL``.
+  is `not the case by default`_ but is needed to populate ``STATIC _URL``.
 
 .. _staticfiles: http://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/
 .. _django-staticfiles: http://pypi.python.org/pypi/django-staticfiles
